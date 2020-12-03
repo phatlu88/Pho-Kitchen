@@ -1,0 +1,1027 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	background-color:
+}
+.container{
+	height: auto;
+}
+
+.pho_button:hover{
+	background-color: #DF0000;
+}
+
+/*  PHỐ KITCHEN BUTTON  */
+.pho_button{
+	width: 180px;
+	height: 100px;
+	background-color: red;
+	z-index: 10000;
+	position: fixed;
+	margin-top: 45vh;
+	float: left;
+}
+
+.pho_button img{
+	width: 75px;
+	margin-top: 6px;
+	margin-left: 50px
+}
+
+/*  ĐẶT NGAY BUTTON  */
+.dat_ngay_button{
+	width: 180px;
+	height: 100px;
+	background-color: red;
+	z-index: 20000;
+	position: fixed;
+	margin-top: 45vh;
+	right: 0;
+	color: #fff;
+	text-align: center
+}
+
+.dat_ngay_button a{
+	font-weight: 600;
+	font-size: 38px;
+	color: #fff;
+	
+}
+
+.dat_ngay_button:hover{
+	background-color: #DF0000;
+}
+
+
+/*  NAVIGATION  */
+nav{
+	background-color: #fff;
+	height:100px;
+	position: fixed;
+	width: 100%;
+	margin: auto;
+	z-index: 1000;
+}
+
+
+/*  LIST MENU NAVIGATION  */
+nav ul{
+	width: 60%;
+	text-align: center;
+	height: 100px;
+	margin: auto;
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 0 15px;
+	line-height: 140px;
+}
+
+nav ul li a{
+	font-weight: 600;
+	color: red;
+	font-size: 18px;
+	border: 0.8px solid transparent;
+	padding: 12px 20px; 
+	transition: 0.6s ease;
+}
+
+nav ul li a:hover{
+	border: 0.8px solid #FF0000;
+}
+
+
+/*  ICON RESPONSIVE IP X*/
+#check{
+	display: none;
+}
+
+.checkbtn{
+	color: red;
+	font-size: 35px;
+	float: left;
+	margin-left: 30px;
+	line-height: 100px;
+	cursor: pointer;
+	display:none;
+}
+
+/*  ICON GIO HANG  */
+.icon{
+	width: 40px;
+	float: right;
+	margin-top: 40px;
+	margin-right: 110px;
+}
+
+
+/*  BANNER  */
+.banner{
+	width: 85%;
+	height:auto;
+	margin: auto;
+	margin-top: px;
+	background-color: ;
+}
+
+.home1{
+	width: 100%;
+	height: auto;
+	margin-top: 100px;
+}
+
+
+/*  SLIDER  */
+.silder{
+	width: 85%;
+	height: 400px;
+	margin: auto;
+	background-color: #FFFFFF;
+}
+/*  FOOD BOARD  */
+.menu{
+	background-color: #fff;
+	height: 350px;
+	width: 50%;
+	float: left;
+	
+}
+
+.food_menu{
+	width: 100%;
+	height: 400px;
+	background-color: 
+}
+
+.food_photo{
+	width: 250px;
+	height: 250px;
+	background-color: gray;
+	float: left;
+	margin-top: 13%;
+	margin-left: 10%
+}
+
+.food_content{
+	width: 40%;
+	height: 250px;
+	background-color: ;
+	float: left;
+	margin-top: 13%;
+}
+
+/*  THỰC ĐƠN */
+
+
+/*  GIO HANG */
+
+.items_board{
+;
+	background-color: ;
+	width: 65%;
+	height: 60vh;
+	position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lien_he_bg{
+	background-image: url( ../images/BAE.png)
+}
+
+.lien_he_board{
+	
+   width: 550px;
+	height: 200px;
+    position: fixed;
+    top: 420px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.gioi_thieu_bg{
+	background-image: url( ../images/WBC_7095.jpg)
+}
+
+.gioi_tieu_board{
+	width: 550px;
+	height: 200px;
+    position: fixed;
+    top: 420px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+	text-align:  center;
+}
+
+.tai_khoan_board {
+	width: 900px;
+	height: 400px;
+    position:absolute;
+    top: 380px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+	text-align:  center;
+}
+
+.tai_khoan_bg{
+	background-image: url(../images/tai khoan_bg.jpg)
+}
+
+.tai_khoan_board_left{
+	width: 450px; 
+	height: 100%; 
+	background-color: ; 
+	float: left
+}
+
+.tai_khoan_board_right{
+	width: 450px; 
+	height: 100%; 
+	background-color:  ;
+	float: left
+}
+
+.dia_chi_moi_board{
+	border: ;
+	width: 400px;
+	height: 400px;
+    position:absolute;
+    top: 380px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+	text-align:  center;
+}
+
+.sign_in{
+	background-color: red
+}
+
+.sign_in:hover{
+	background-color: gray;
+}
+
+.sign_up{
+	background-color: red
+}
+
+.sign_up:hover{
+	background-color: gray;
+}
+
+.tai_khoan_bg{
+	height: 95vh
+}
+
+.textbox{
+	background-color: ;
+	line-height: 33px;
+	position: absolute;
+	top: 70px;
+  	left: 50%;
+  	transform: translate(-50%);
+	width: 200px;
+	height: 30vh;
+	;
+	;}
+
+.item_info{
+	background-color: ;
+	height: 80px;
+	width:100%;
+}
+
+.item{
+	border: ;
+	width: 40%;
+	height: 100%;
+	float: left;
+	display: block;
+	position: relative;
+}
+
+.count{
+	width: 30%;
+	height: 100%;
+	border: ;
+	display: inline-block;
+	
+}
+
+.item_price{
+	width: 30%;
+	height: 100%;
+	border: ;
+	float: right
+}
+
+.bill_board {
+	background-color: ;
+	width: 65%;
+	height: 60vh;
+	position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tks{
+	font-size: 50px;
+}
+
+
+.gio_hang_nav{
+	border: ;
+	width: 100%;
+	height: 100px;
+	bottom: 12vh;
+	position: fixed
+}
+
+/*  FOOTER  */
+.footer{
+	background-color: #fff;
+	width: 100%;
+	height: 100px;
+	bottom: 0;
+}
+
+.footer_content{
+	width: 85%;
+	height: 100px;
+	margin: auto;
+}
+
+#footer_left{
+	float:left;
+	margin-top: 40px;
+}
+
+#footer_left li{
+	display: inline-block;
+	padding: 0 15px;
+}
+
+#footer_left li a{
+	color: red;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+#footer_right{
+	float: right;
+	margin-top: 40px;
+}
+
+#footer_right li a{
+	color: red;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+#food_info{
+	margin-top: 0%;
+	margin-left: 10%;
+}
+
+#food_info li{
+	line-height: 30px
+}
+
+#food_info li a{
+	font-size: 20px;
+	color: black;
+}
+
+/*  THEM GIO HANG BUTTON  */
+.add_button{
+	border: none;
+	margin: 20px 10%;
+}
+
+.add_button a{
+	color: red;
+	border: 0.8px solid #FF0000;
+	border-radius: 100px;
+	padding: 10px 15px;
+	font-size: 17px;
+	transition: 0.5s ease;
+}
+
+.add_button a:hover{
+	color: #fff;
+	background-color: red;
+}
+
+/*  PLUS MINOR BOX  */
+input{
+	border: none;
+	outline: none;
+	padding: 5px;
+	background-color: ;
+	border-radius: 5px;
+	margin: 0 5px !important;
+}
+
+input:hover{
+	background-color: whitesmoke;
+	color: #000;
+}
+
+.number_box{
+	margin: 30px 10%;
+	width: 35%;
+}
+
+.number_box button{
+	background-color: whitesmoke;
+	border: none;
+	border-radius: 5px;
+	width: 20px
+}
+
+/*  MEDIA IPAD PRO NGANG */
+@media (max-width: 1366px){
+	
+	.lien_he_board {
+		width: 40%;
+		height: 40vh;
+		top: 45vh
+	}
+	
+	.textbox {
+		left: 45%;
+		
+	}
+	
+	nav ul li{
+		line-height: 120px;
+	}
+	
+	nav ul li a{
+		font-size: 22px;
+	}
+	
+	.pho_button{
+		margin-top: 40vh;
+	}
+	
+	.dat_ngay_button{
+		margin-top: 40vh;
+	}
+	
+}
+
+
+
+
+/*  MEDIA IPAD NGANG*/
+@media (max-width: 1024px){
+	
+	.tai_khoan_board {
+		width: 600px;
+		height: 340px
+	}
+	
+	.tai_khoan_board_left{
+		width: 300px;
+		height: 340px;
+	}
+	
+	.tai_khoan_board_right{
+		width: 300px;
+		height: 340px
+	}
+	
+	.tks{
+	font-size: 45px;
+}
+
+	
+	.container{
+		
+	}
+	
+	nav ul {
+		width: 80%;
+	}
+
+	
+	nav ul li a{
+		font-size: 20px;
+	}
+	
+	.icon{
+	margin-right: 8%;
+	}
+	
+	.slider{
+		width: 85%;
+		margin-top: -20%;
+	}
+	
+	.menu{
+		width: 100%;
+	}
+	
+	.food_menu{
+		width: 60%;
+		margin: auto;
+	}
+	.footer{
+		margin-top: 400px
+	}
+	
+	.pho_button{
+		width: 150px;
+		text-align: center;
+	}
+	
+	.pho_button img{
+		margin: 7px 35px
+	}
+	
+	.dat_ngay_button{
+		width: 150px;
+	}
+
+}
+
+
+/*  MEDIA IPAD DỌC  */
+@media (max-width:768px){
+	
+	.lien_he_board{
+		height: 95vh;
+	}
+	
+	.gioi_tieu_board {
+		top: 350px;
+		width: 450px;
+	}
+	
+	.tai_khoan_board {
+		margin-top: 60px;
+		width: 300px;
+		height: 680px
+	}
+	
+	.tai_khoan_board_left{
+		width: 300px;
+		height: 340px;
+	}
+	
+	.tai_khoan_board_right{
+		width: 300px;
+		height: 340px
+	}
+	
+	.tai_khoan_bg {
+		height: 130vh
+	}
+	
+	.tks{
+	font-size: 35px;
+	
+}
+
+	
+	.pho_button{
+		margin-top: 0;
+		text-align: center
+	}
+	
+	nav ul li{
+		margin: 0;
+	}
+	
+	nav ul li a{
+		font-size: 17px;
+	}
+	
+	.menu{
+		margin: auto;
+	}
+	
+	.food_menu{
+		width: 80%;
+	}
+	
+	.pho_button{
+		margin-top: 25vh;
+		width: 120px;
+		height: 80px;
+	}
+	
+	.pho_button img{
+		width: 57px;
+		margin: 7px 30px
+	}
+	
+	.dat_ngay_button{
+		margin-top: 25vh;
+		width: 120px;
+		height: 80px;
+	}
+	
+	.dat_ngay_button a{
+		font-size: 30px
+	}
+	
+}
+
+
+/*  MEDIA IP X DỌC  */
+@media (max-width: 375px)
+{
+	.dia_chi_moi_board{
+		width: 300px;
+	}
+	
+	.lien_he_board{
+		width: 300px;
+		margin-top: 0
+	}
+	
+	
+	.gioi_tieu_board{
+		width: 300px;
+	}
+	
+	.tai_khoan_board {
+		width: 300px;
+		height: 680px;
+		top: 430px;
+	}
+	
+	.tai_khoan_board_left{
+		width: 300px;
+		height: 340px
+	}
+	
+	.tai_khoan_board_right{
+		width: 300px;
+		height: 340px
+	}
+	
+	.textbox{
+		width: 200px
+		
+	}
+	
+	#gioi_thieu_2 a{
+		font-size: 10px
+	}
+
+	.tks {
+		font-size: 30px
+	}
+	
+		.text {
+		width: 300px;
+	    margin-left: -85px
+	}
+	
+	.FAQ {
+		margin-left: -87px
+	}
+	
+	.bill_board{
+		width: 90%
+	}
+	
+	.gio_hang_nav{
+		margin-left: -10px
+	}
+	
+	.gio_hang_nav_left2 a{
+		margin-right: -20px
+	}
+	
+	.gio_hang_nav_right2 a{
+		margin-left: 5px
+	}
+	
+	.gio_hang_nav_left a{
+		margin-right: 25px
+	}
+	
+	.gio_hang_nav_right a{
+		margin-left: 15px
+	}
+	
+	.pho_button{
+		margin-top: 0;
+		left: 33%;
+		height: 100px;
+
+	}
+	
+	.pho_button img{
+		margin-top: 10px;
+		margin-left: 25px;
+		width: 70px
+	}
+	
+	.dat_ngay_button{
+		bottom: 0;
+		left:33%;
+	}
+	
+	.checkbtn{
+		display: block;
+	}
+	
+		#check:checked ~ ul{
+		left: 0;
+	}
+	
+	.icon{
+		margin-top: 32px;
+	}
+	
+	nav ul{
+		position: fixed;
+	width: 100%;
+	height:100vh;
+	background-color: #fff;
+	text-align: center;
+	top: 80px;
+	left: -100%;	
+	transition: 0.7s ease;
+	margin-top: 20px	
+	}
+	
+	nav ul li{
+		width: 100%;
+		height: 60px;
+	 
+	}
+	
+	nav ul li a{
+		font-size: 30px;
+	}
+	
+	.banner{
+		background-color: #FFF;
+		width: 100%;
+		height: auto;
+	}
+	
+	.silder{
+		width: 100%;
+	}
+	
+	.menu{
+		height: 580px
+	}
+	
+	.food_menu{
+		margin: auto;
+		padding: 50px 0;
+		margin-top: -90px
+	}
+	
+	.food_photo{
+		margin-left: 20px;
+		width: 250px;
+		height: 250px;
+	
+	}
+	
+	.food_content{
+		width: 100%;
+		background-color: antiquewhi;
+		margin-top: 10px;
+	}
+	
+	.items_board{
+		width: 90%;
+	}
+	
+	.slider_gio_hang{
+		
+	}
+	
+	#food_info {
+		text-align: center;
+		margin: auto
+	}
+	
+	#food_info li a{
+		font-size: 18px;
+	}
+	
+	.number_box {
+		width: 80%;
+		text-align: center;
+		
+	}
+	
+	.add_button {
+		margin: auto;
+		text-align: center
+	}
+	
+	
+	
+	.footer{
+		margin-top: 650px;
+		height: 170px;
+	}
+	
+	#footer_left li{
+		padding: 0 10px;
+	}
+	
+	.container{
+		height: 1650px;
+	}
+}
+
+/*  MEDIA IP X NGANG*/
+@media (max-height:375px){
+	
+	.tai_khoan_board {
+		width:300px ; height: 700px;
+		margin-top: 100px;
+	}
+	
+	.tai_khoan_bg{
+		height: 1000px;
+	}
+	
+	.lien_he_board {
+		top: 50vh;
+		width: 60%;
+		height: 50vh
+	}
+	
+
+	.silder{
+		height:;
+	}
+	
+	
+	.checkbtn{
+		display: block;
+	}
+		#check:checked ~ ul{
+		left: 0;	
+	}
+	
+	.icon{
+		margin-top: 32px;
+	}
+	
+	nav ul{
+		position: fixed;
+	width: 100%;
+	height:100vh;
+	background-color: #fff;
+	text-align: center;
+	top: 80px;
+	left: -100%;	
+	transition: 0.7s ease;
+	margin-top: 10px	
+	}
+	
+	nav ul li{
+		width: 100%;
+        margin: -30px;
+	}
+	
+	nav ul li a{
+		font-size: 30px;
+	}
+	
+	.banner{
+		width: 100%;
+	}
+	
+	.silder{
+		width: 100%;
+	}
+	
+	.menu{
+		height: 500px
+	}
+	
+	.food_menu{
+		margin: auto;
+		width: 250px;
+		padding: 50px 0;
+		margin-top: -50px;
+		height: 500px;
+	}
+	
+	.food_photo{
+		margin: auto;
+		width: 250px;
+		height: 250px;
+	}
+	
+	.food_content{
+		width: 100%;
+		background-color: antiquewhi;
+		margin-top: 10px;
+	}
+	
+	#food_info {
+		text-align: center;
+		margin: auto;
+	}
+	
+	#food_info li a{
+		font-size: 18px;
+	}
+	
+	.number_box {
+		width: 80%;
+		text-align: center;
+		
+	}
+	
+	.add_button {
+		margin: auto;
+		text-align: center
+	}
+	
+	.footer{
+		height: 100px;
+		margin-top:  650px;
+	}
+	
+	#menu_thuc_don{
+		margin-top: 25px;
+	}
+	
+}
+
+.slider_thuc_don{
+	background-color: whitesmo;
+	width: 100%;
+	height:90vh;
+}
+
+#gioi_thieu {
+	text-align: center;
+	top: 25vh;
+	position: fixed; 
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	
+}
+
+#gioi_thieu li{
+	margin: 25px;
+	width: 500px;
+}
+
+#gioi_thieu li a{
+	color:#000;
+	font-weight: bold;
+	font-size: 32px;
+}
+
+#menu_thuc_don{
+	text-align: center;
+	top: 25vh;
+	position: fixed; 
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	
+}
+
+#menu_thuc_don li{
+	margin: 25px;
+	width: 500px;
+}
+
+#menu_thuc_don li a{
+	color:#000;
+	font-weight: bold;
+	font-size: 32px;
+}
+
+
+
+.gioi_thieu_2 {
+}
